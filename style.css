@@ -1,0 +1,369 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.new-header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-form {
+  display: flex;
+  align-items: center;
+}
+
+.login-form input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form .btn {
+  background: #f00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.new-header .btn-langganan {
+  background: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.new-header .btn-langganan:hover {
+  background: #0056b3;
+}
+
+.hero {
+  background: url('assets/hero-bg.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 3em;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+.btn {
+  background: #f00;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.features {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.features .feature-item {
+  display: inline-block;
+  width: 30%;
+  margin: 0 1%;
+}
+
+.features .feature-item img {
+  width: 100px;
+  height: 100px;
+}
+
+.about, .contact {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact form input, .contact form textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.contact form button {
+  background: #f00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+
+
+
+h2 {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+td {
+  padding: 10px;
+  vertical-align: top;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.btn {
+  background: #f00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #d00;
+}
+
+
+
+.header-buttons button {
+  background: #f00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.header-buttons button:hover {
+  background: #d00;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.package-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.package {
+  background-color: #fff;
+  width: 48%;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+}
+
+.package .badge {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #ff0;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.package h3 {
+  margin-top: 0;
+}
+
+.package ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.package ul li {
+  margin: 5px 0;
+}
+
+.package .price {
+  font-size: 1.2em;
+  color: #f00;
+  margin: 10px 0;
+}
+
+.package del {
+  color: #999;
+}
+
+.package button {
+  background: #f00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.package button:hover {
+  background: #d00;
+}
+
+
+
+
+.sidebar {
+  width: 25%;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: left;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li span {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.sidebar ul li ul {
+  list-style: none;
+  padding: 0 0 0 20px;
+}
+
+.sidebar ul li ul li {
+  margin-bottom: 5px;
+}
+
+.sidebar ul li ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar ul li ul li a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  width: 75%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.content h2 {
+  margin-top: 0;
+}
+
+
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.checkout-form {
+  margin: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100%;
+  background: #f00;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #d00;
+}

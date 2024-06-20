@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Test</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .parallax {
+            background-image: url('https://cdn.wallpapersafari.com/32/52/3X1Bez.png');
+            height: 500px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .parallax-content {
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Parallax Section -->
+    <section class="parallax" data-rellax-speed="-2">
+        <div class="parallax-content">
+            <h2>Welcome to Qumap</h2>
+            <p>Enhancing your learning experience</p>
+        </div>
+    </section>
+
+    <script>
+        var rellax = new Rellax('.parallax');
+    </script>
+</body>
+</html>
